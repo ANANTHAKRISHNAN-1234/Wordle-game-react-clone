@@ -1,0 +1,9 @@
+.navbar {
+  border-bottom: 1.8px solid rgb(231 220 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-heading {
+  font-weight: bold;
+}

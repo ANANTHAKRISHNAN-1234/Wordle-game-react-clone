@@ -1,0 +1,15 @@
+.keyboard {
+  margin-top: 7px;
+}
+.line1 {
+  display: flex;
+  justify-content: center;
+}
+.line2 {
+  display: flex;
+  justify-content: center;
+}
+.line3 {
+  display: flex;
+  justify-content: center;
+}

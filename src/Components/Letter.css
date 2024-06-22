@@ -1,0 +1,25 @@
+.letter {
+  border: 2px solid #c6c7c8;
+  margin: 3px;
+  padding: 0px;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  height: 100%;
+  font-weight: bolder;
+  flex: 33%;
+}
+#correct {
+  background-color: #528d4e;
+  color: white;
+}
+
+#almost {
+  background-color: #b49f39;
+  color: white;
+}
+
+#error {
+  background-color: #495057;
+  color: white;
+}
