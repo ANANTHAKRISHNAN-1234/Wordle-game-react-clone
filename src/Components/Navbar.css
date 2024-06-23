@@ -3,7 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 50%;
+  background-color: #33c7c7;
 }
 .navbar-heading {
   font-weight: bold;
+}
+.navbarhome {
+  margin-right: 3rem;
 }

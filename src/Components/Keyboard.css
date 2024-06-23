@@ -13,3 +13,8 @@
   display: flex;
   justify-content: center;
 }
+@media (min-width: 320px) and (max-width: 590px) {
+  .keyboard {
+    margin-top: 4.5rem;
+  }
+}

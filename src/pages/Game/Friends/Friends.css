@@ -1,0 +1,24 @@
+.friends {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+}
+.friends input {
+  height: 3rem;
+  margin-left: 2rem;
+}
+.friends button {
+  height: 3rem;
+  color: white;
+  background-color: #0fa560;
+  margin-left: 2rem;
+  font-size: 12rpx;
+  width: 4rem;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.playbtn:hover {
+  background-color: rgb(132, 204, 132);
+}

@@ -6,11 +6,12 @@ import "./Game.css";
 import { boardDefault, generateWordSet } from "../../Components/Words";
 import { createContext, useState, useEffect } from "react";
 export const AppContext = createContext();
-const Game = () => {
+const Game = ({ isFriends, inputValue }) => {
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 0, letterpos: 0 });
   const [wordSet, setWordSet] = useState(new Set());
   const [correctWord, setCorrectWord] = useState("");
+  const [groupPlayer, setGroupPlayer] = useState("false");
   const [disabledLetters, setDisabledLetters] = useState([]);
   const [gameOver, setGameOver] = useState({
     gameOver: false,
@@ -18,10 +19,17 @@ const Game = () => {
   });
   // const correctWord = "RIGHT";
   useEffect(() => {
-    generateWordSet().then((words) => {
-      setWordSet(words.wordSet);
-      setCorrectWord(words.todaysWord);
-    });
+    if (isFriends) {
+      generateWordSet().then((words) => {
+        setWordSet(words.wordSet);
+      });
+      setCorrectWord(inputValue);
+    } else {
+      generateWordSet().then((words) => {
+        setWordSet(words.wordSet);
+        setCorrectWord(words.todaysWord);
+      });
+    }
   }, []);
 
   const onDelete = () => {
