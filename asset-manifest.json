@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Wordle-game-react-clone/static/css/main.f0070c5b.css",
+    "main.js": "/Wordle-game-react-clone/static/js/main.c2e434b6.js",
+    "static/media/Wordle-Word-Bank.txt": "/Wordle-game-react-clone/static/media/Wordle-Word-Bank.d1e180c0e95e817784be.txt",
+    "index.html": "/Wordle-game-react-clone/index.html",
+    "main.f0070c5b.css.map": "/Wordle-game-react-clone/static/css/main.f0070c5b.css.map",
+    "main.c2e434b6.js.map": "/Wordle-game-react-clone/static/js/main.c2e434b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0070c5b.css",
+    "static/js/main.c2e434b6.js"
+  ]
+}
