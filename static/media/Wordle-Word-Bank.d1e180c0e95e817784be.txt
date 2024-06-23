@@ -1465,6 +1465,7 @@ preen
 press
 price
 prick
+pricy
 pride
 pried
 prime
